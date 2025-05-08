@@ -13,3 +13,29 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+/* Media Queries for taskContainer and taskForm */
+@media screen and (max-width: 768px) {
+  .taskForm {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .taskContainer {
+    margin: 0.25rem auto;
+  }
+  
+  .taskForm {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+  }
+  
+  .taskForm input, 
+  .taskForm button {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

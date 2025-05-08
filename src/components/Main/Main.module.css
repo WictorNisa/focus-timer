@@ -7,3 +7,23 @@
   flex-direction: column;
   align-items: center;
 }
+
+/* Media Queries for mainContainer */
+@media screen and (max-width: 1200px) {
+  .mainContainer {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mainContainer {
+    width: 95%;
+    height: 80%;
+  }
+}

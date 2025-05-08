@@ -6,3 +6,17 @@
     text-align: center;
     padding: 1rem;
 }
+
+/* Media Queries for countdownContainer */
+@media screen and (max-width: 768px) {
+  .countdownContainer {
+    padding: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .countdownContainer {
+    padding: 0.5rem;
+    height: 85%;
+  }
+}
